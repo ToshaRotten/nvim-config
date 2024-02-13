@@ -16,6 +16,7 @@ null_ls.setup({
         null_ls.builtins.formatting.rustfmt,
         null_ls.builtins.formatting.prettierd.with { filetypes = {
         "css",
+        "go",
         "scss",
         "less",
         "html",
