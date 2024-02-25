@@ -37,5 +37,8 @@ require("lazy").setup({
       dependencies = { 'nvim-lua/plenary.nvim' }
     },
     { 'jose-elias-alvarez/null-ls.nvim' },
-    { 'fatih/vim-go' }
+    { 'fatih/vim-go' },
+    { 'olexsmir/gopher.nvim' },
+    { 'codota/tabnine-nvim', build = "./dl_binaries.sh" },
+    { 'tzchar/cmp-tabnine', build = "./install.sh", dependencies = "hrsh7th/nvim-cmp" }
 })

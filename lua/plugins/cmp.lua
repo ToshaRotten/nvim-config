@@ -36,7 +36,9 @@ cmp.setup({
         end, {"i", "s"})
     }),
     sources = cmp.config.sources({
-        {name = 'nvim_lsp'}, {name = 'vsnip'} -- For vsnip users.
+        {name = 'nvim_lsp'},
+        {name = 'cmp_tabnine'},
+        {name = 'vsnip'} -- For vsnip users.
     }, {{name = 'buffer'}, {name = 'nvim_lsp_signature_help'}})
 })
 

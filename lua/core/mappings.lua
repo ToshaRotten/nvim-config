@@ -10,7 +10,7 @@ vim.keymap.set('n', '<leader>`', ':Lazy<CR>')
 
 -- Code editor mapping
 vim.keymap.set('i', '<C-l>', '<DEL>')
-vim.keymap.set('i', '<leader>h', '<DEL>')
+-- vim.keymap.set('i', '<leader>h', '<DEL>')
 
 -- Golang mapping
 vim.keymap.set('n', '<leader>r', ':GoRun main.go<CR>')
@@ -19,7 +19,7 @@ vim.keymap.set('n', '<leader>r', ':GoRun main.go<CR>')
 vim.keymap.set('n', '<leader>p', ':python3 main.go<CR>')
 
 -- Utils mapping
-vim.keymap.set('n', '<leader>m, ':make')
+-- vim.keymap.set('n', '<leader>m, ':make')
 
 -- Todo
 
